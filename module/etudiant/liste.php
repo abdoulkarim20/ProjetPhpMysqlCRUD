@@ -9,7 +9,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Je suis la liste</h1>
+    <main class="container">
+        <h1>Je suis la liste</h1>
+    </main>
+
+    
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
