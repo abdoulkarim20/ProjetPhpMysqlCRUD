@@ -10,7 +10,7 @@
 </head>
 <body>
     <main class="container">
-        <h1 class="text-center">La liste des apprenants</h1>
+        <h2 class="text-center mt-3">La liste des apprenants</h2>
         <table class="table">
             <thead>
                 <tr>

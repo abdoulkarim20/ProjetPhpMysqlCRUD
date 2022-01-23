@@ -10,6 +10,7 @@
 </head>
 <body>
     <main class="container">
+        <h2 class="text-center mt-3">Enregistrer un etudiant</h2>
         <form method="POST" action="./exe/etudiant/add.php">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Nom Complet</label>

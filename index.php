@@ -21,7 +21,7 @@
                     <a class="nav-link" href="?r=etudiant&&m=add">Ajouter</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?r=etudiant&&m=list">Liste</a>
+                    <a class="nav-link" href="?r=etudiant&&m=list">Lister</a>
                 </li>
             </ul>
             </div>
