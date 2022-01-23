@@ -33,7 +33,6 @@
         }else{
             echo "<h1>Je suis la page d'accueil</h1>";
         }
-    
     ?>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
