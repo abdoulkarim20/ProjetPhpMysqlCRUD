@@ -29,7 +29,7 @@
                         <td colspan="1"><?php echo $value['nom']; ?></td>
                         <td colspan="1"><?php echo $value['email']; ?></td>
                         <td colspan=""><a href=""><i class="bi bi-pencil-fill" style="font-size:1.5rem"></i></a></td>
-                        <td colspan=""><a href=""><i class="bi bi-trash-fill" style="color:#ce0033; font-size:1.5rem"></i></a></td>
+                        <td colspan=""><a onclick="return confirm('Etes-vous sur de vouloir le supprimer ?')" href="exe/etudiant/delete.php?id=<?php echo $value['id'] ;?>"><i class="bi bi-trash-fill" style="color:#ce0033; font-size:1.5rem"></i></a></td>
                         <td colspan=""><a href=""><i class="bi bi-eye-slash-fill" style="font-size:1.5rem"></i></a></td>
                     </tr>
                 <?php }?>
