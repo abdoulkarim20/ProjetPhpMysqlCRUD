@@ -10,6 +10,9 @@
             case "edit":
                 require_once("edit.php");
                 break;
+                case "voir":
+                    require_once("detail.php");
+                    break;
             default:
             echo "pas ok";
         }

@@ -18,9 +18,8 @@
           echo $e->getMessage();
       }
   }else{
-        echo "<script> alert('tous les champs sont obligatoire');
-        document.location.href='../../?r=etudiant&m=add';
-        </script>";
+        echo "<script> alert('tous les champs sont obligatoire')</script>";
+        header("Location: ../../?r=etudiant&m=add");
         die();
   }
 ?>

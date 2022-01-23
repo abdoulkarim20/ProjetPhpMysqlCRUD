@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="">PHP/MYSQL/CRUD</a>
+            <a class="navbar-brand" href="index.php">PHP/MYSQL/CRUD</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,7 +31,7 @@
         if(!empty($_GET['r'])){
             require_once("./page/route.php");
         }else{
-            echo "<h1>Je suis la page d'accueil</h1>";
+            require_once("./page/main.php");
         }
     ?>
     <script src="bootstrap/js/bootstrap.min.js"></script>

@@ -28,7 +28,8 @@
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input type="email" class="form-control" name="email" value="<?php echo $data['email'];?>" id="exampleInputEmail1" aria-describedby="emailHelp" required>    
             </div>
-            <button type="submit" class="btn btn-primary">Enregistrer</button>
+            <button type="submit" class="btn btn-success">Enregistrer</button>
+            <a class="btn btn-primary" href="?r=etudiant&m=list">Annuler</i></a>
         </form>
     </main>
     

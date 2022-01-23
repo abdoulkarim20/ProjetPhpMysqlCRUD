@@ -20,7 +20,7 @@
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp" required>    
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">Enregistrer</button>
         </form>
     </main>
     
