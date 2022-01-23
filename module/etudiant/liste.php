@@ -14,10 +14,10 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">id</th>
+                    <th scope="col">ID</th>
                     <th scope="col">Nom et Prenoms</th>
                     <th scope="col">Adresse email</th>
-                    <th scope="col">Action</th>
+                    <th scope="col">Actions</th>
                 </tr>
             </thead>
             <tbody>
