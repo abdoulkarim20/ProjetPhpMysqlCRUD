@@ -7,6 +7,9 @@
             case "list":
                 require_once("liste.php");
                 break;
+            case "edit":
+                require_once("edit.php");
+                break;
             default:
             echo "pas ok";
         }
